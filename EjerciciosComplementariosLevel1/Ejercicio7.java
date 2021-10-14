@@ -27,9 +27,6 @@ public class Ejercicio7 {
       if (texto.charAt(i) >= 'a' && texto.charAt(i) <= 'z') {
         temp = (char)(texto.charAt(i) - 32);
       }
-      else if (texto.charAt(i) >= 'A' && texto.charAt(i) <= 'Z'){
-        temp = (char)(texto.charAt(i) + 32);
-      }
       else {
         temp = texto.charAt(i);
       }
