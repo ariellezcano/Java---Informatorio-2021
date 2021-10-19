@@ -69,19 +69,19 @@ public class Ejercicio3 {
         barajaFrancesa.add(51,"K = DIAMANTE");        
 
         System.out.println("BARAJA FRANCESA");
-        for (int i = 0; i < barajaFrancesa.size() ; i++) {
+        for (int i = 0; i < barajaFrancesa.size(); i++) {
             System.out.println(barajaFrancesa.get(i));
         }
 
         System.out.println("ORDENAR BARAJA FRANCESA");
         Collections.sort(barajaFrancesa);
-        for (int i = 0; i < barajaFrancesa.size() ; i++) {
+        for (int i = 0; i < barajaFrancesa.size(); i++) {
             System.out.println(barajaFrancesa.get(i));
         }
     
         System.out.println("MEZCLAR BARAJA FRANCESA");
         Collections.shuffle(barajaFrancesa);
-        for (int i = 0; i < barajaFrancesa.size() ; i++) {
+        for (int i = 0; i < barajaFrancesa.size(); i++) {
             System.out.println(barajaFrancesa.get(i));
         }
     
