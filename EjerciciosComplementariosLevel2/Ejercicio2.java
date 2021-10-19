@@ -32,9 +32,14 @@ public class Ejercicio2 {
             System.out.println("Agregar elemento al principio");
             numeros = scanner.nextInt();
             listnumeros.add(0, numeros);
-            System.out.println("Agregar elemento al final");
+            System.out.println("Lista actualizada con el número al principio de la lista");
+            for (int i = 0; i < listnumeros.size(); i++) {
+                System.out.println(i+1+" "+""+listnumeros.get(i));
+            }
+            System.out.println("Agregar elemento al final de la lista");
             numeros = scanner.nextInt();
-            listnumeros.add(-1, numeros);
+            listnumeros.add(listnumeros.size(), numeros);
+            
         }
 
         System.out.println("Lista actualizada");
