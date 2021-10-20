@@ -35,20 +35,25 @@ public class Ejercicio5 {
             valorxhora.add(valor);
         }
         System.out.println("\n");
-        System.out.println("multiplicar la matriz");
+        System.out.println("multiplicar hora por valor");
         //multiplicar la matriz
         for (int i = 0; i < 5; i++) {
             totalM = horastrabajadas.get(i) * valorxhora.get(i);
-           System.out.println("multiplicar la matriz" + totalM);
-           total.add(totalM);
+            total.add(totalM);
         }
 
         System.out.println("\n");
-        System.out.println("totales");
+        System.out.println("Total");
         
         for (int i = 0; i < total.size(); i++) {
            System.out.println(total.get(i));
         }
-        
+
+        int sum = 0;
+        for(int i = 0; i < total.size(); i++){
+            sum += total.get(i);
+        }
+        System.out.println("Total final:" +" "+sum);
     }
+
 }
