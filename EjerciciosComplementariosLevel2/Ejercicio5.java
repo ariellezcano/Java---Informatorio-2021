@@ -50,19 +50,5 @@ public class Ejercicio5 {
            System.out.println(total.get(i));
         }
         
-        
-       /* for (int i = 0; i < horastrabajadas.size(); i++) {
-            for (int j = 0; j < valorxhora.size(); j++) {
-                totalM = i*j;
-                System.out.println("total = "+totalM);
-                total.add(totalM);
-            }
-        }
-        System.out.println("\n");
-        System.out.println("total");
-        for (int i = 0; i < total.size(); i++) {
-            System.out.println(total.get(i));
-        }*/
-
     }
 }
